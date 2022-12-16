@@ -1,0 +1,81 @@
+.navig__title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+.navig{
+    padding: 8px;
+    background-color: blueviolet;
+}
+.header__h1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(/mou.jpg);
+    height: 400px;
+    background-size: cover;
+    text-align: center;
+    display: flex; align-items: center;
+    color: white;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex; justify-content: center;
+}
+body{
+ margin: 0px;   
+}
+.text{
+    display: flex; justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    font-style: italic;
+    color: gray;
+    font-size: large;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.icone{
+    display: flex; justify-content: center;
+}
+
+.text__p{
+    margin: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+.div__h2 {
+    display: flex; justify-content: center;
+}
+
+.text__avis{
+    display: flex; justify-content: center;
+    text-align: center;
+    font-style: italic;
+    color: rgb(69, 66, 66);
+    font-size: large;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.chou{
+    color: gray;
+    display: flex; justify-content: center;
+}
+
+footer{
+    background-color: blueviolet;
+    display: flex; justify-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 25px;
+    gap: 25px;
+}
+.logo
+{
+    display: flex; justify-content: space-around;
+}
+
+.a_propos{
+text-align: left;
+margin: auto;
+}
+
