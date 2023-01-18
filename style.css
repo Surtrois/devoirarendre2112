@@ -68,6 +68,7 @@ footer{
     text-align: center;
     margin: 25px;
     gap: 25px;
+    padding: 10px;
 }
 .logo
 {
@@ -79,4 +80,20 @@ text-align: left;
 margin: auto;
 }
 
-
+@media screen and (min-width: 481px) {
+    .header__h1{
+        background-size: cover;
+        background-color: black;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .centretexte {
+        display: flex; flex-direction: row;
+        flex-wrap: wrap; 
+        width: 80%;
+        margin: 0 auto;
+    }
+    .iconotexte {
+        
+    }
+}
